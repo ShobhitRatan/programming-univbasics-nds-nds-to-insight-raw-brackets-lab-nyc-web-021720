@@ -8,7 +8,6 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
 
-  result = {}
 
   director = {}
   dir_index = 0 #director index
@@ -31,5 +30,5 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  return director 
+  return director
 end
