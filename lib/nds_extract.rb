@@ -12,7 +12,7 @@ def directors_totals(nds)
   director = {}
   dir_index = 0 #director index
   while dir_index < nds.count do
-    director_name = nds[index][:name]
+    director_name = nds[dir_index][:name]
     director[director_name] = 0
     mov_index = 0  #movie index
     while mov_index < nds[dir_index][:movies].count do
